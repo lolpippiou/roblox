@@ -1,4 +1,4 @@
-local script = "none for now"
+local script = "https://raw.githubusercontent.com/lolpippiou/roblox/main/Games/Kohls%20Admin%20House/KAH%20team%20c00lkidd%20custom%20server%20utilities.lua"
 game.Players:Chat(":m welcome to team c00l kidd's custom server utilities!")
 
 game.Players.LocalPlayer.Chatted:connect(function(msg)
