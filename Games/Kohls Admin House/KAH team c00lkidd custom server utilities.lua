@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-local script = "https://raw.githubusercontent.com/lolpippiou/roblox/main/Games/Kohls%20Admin%20House/KAH%20team%20c00lkidd%20custom%20server%20utilities.lua"
+local script = "https://raw.githubusercontent.com/lolpippiou/roblox/main/Games/Kohls Admin House/KAH team c00lkidd custom server utilities.lua"
 game.Players:Chat(":m welcome to team c00l kidd's custom server utilities!")
 
 game.Players.LocalPlayer.Chatted:connect(function(msg)
@@ -32,7 +32,7 @@ game.Players.LocalPlayer.Chatted:connect(function(msg)
             wait(0.5)
             game.Players:Chat(":seizure me")
             wait(0.5)
-            syn.queue_on_teleport("loadstring(game:HttpGet('"..script.."'))()")
+            syn.queue_on_teleport('loadstring(game:HttpGet("'..script..'"))()')
             game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, game:GetService("Players").LocalPlayer)
         elseif msg:sub(9) == "regen" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpippiou/roblox/main/Games/Kohls%20Admin%20House/KAH%20Remove%20regenerate%20pad.lua"))()
