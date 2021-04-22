@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-game.Players:Chat(":m welcome to team c00l kidd's custom server utilities!")
+game.Players:Chat(":pm me welcome to team c00l kidd's custom server utilities!")
 
 game.Players.LocalPlayer.Chatted:connect(function(msg)
     if msg == ":shutdown" then
